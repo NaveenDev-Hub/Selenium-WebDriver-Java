@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-26T16:21:07 GMT-06:00" name="Full Regression Suite" finished-at="2025-01-26T16:21:23 GMT-06:00" duration-ms="15607">
+    <groups>
+      <group name="negative">
+        <method signature="LoginTests.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@3febb011]" name="negativeLoginTest" class="com.practicetestautomation.tests.login.LoginTests"/>
+        <method signature="LoginTests.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@158d2680]" name="negativeLoginTest" class="com.practicetestautomation.tests.login.LoginTests"/>
+      </group> <!-- negative -->
+      <group name="regression">
+        <method signature="LoginTests.testLoginFunctionality()[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@130161f7]" name="testLoginFunctionality" class="com.practicetestautomation.tests.login.LoginTests"/>
+        <method signature="LoginTests.testLoginFunctionality()[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@436813f3]" name="testLoginFunctionality" class="com.practicetestautomation.tests.login.LoginTests"/>
+        <method signature="LoginTests.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@3febb011]" name="negativeLoginTest" class="com.practicetestautomation.tests.login.LoginTests"/>
+        <method signature="LoginTests.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@158d2680]" name="negativeLoginTest" class="com.practicetestautomation.tests.login.LoginTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTests.testLoginFunctionality()[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@130161f7]" name="testLoginFunctionality" class="com.practicetestautomation.tests.login.LoginTests"/>
+        <method signature="LoginTests.testLoginFunctionality()[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@436813f3]" name="testLoginFunctionality" class="com.practicetestautomation.tests.login.LoginTests"/>
+      </group> <!-- smoke -->
+      <group name="positive">
+        <method signature="LoginTests.testLoginFunctionality()[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@130161f7]" name="testLoginFunctionality" class="com.practicetestautomation.tests.login.LoginTests"/>
+        <method signature="LoginTests.testLoginFunctionality()[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@436813f3]" name="testLoginFunctionality" class="com.practicetestautomation.tests.login.LoginTests"/>
+      </group> <!-- positive -->
+    </groups>
+    <test started-at="2025-01-26T16:21:07 GMT-06:00" name="Positive Login Test with Chrome Browser" finished-at="2025-01-26T16:21:12 GMT-06:00" duration-ms="4495">
+      <class name="com.practicetestautomation.tests.login.LoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@130161f7]" started-at="2025-01-26T16:21:07 GMT-06:00" name="setUp" finished-at="2025-01-26T16:21:11 GMT-06:00" duration-ms="3642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFunctionality()[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@130161f7]" started-at="2025-01-26T16:21:11 GMT-06:00" name="testLoginFunctionality" finished-at="2025-01-26T16:21:12 GMT-06:00" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunctionality -->
+        <test-method is-config="true" signature="trearDown()[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@130161f7]" started-at="2025-01-26T16:21:12 GMT-06:00" name="trearDown" finished-at="2025-01-26T16:21:12 GMT-06:00" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trearDown -->
+      </class> <!-- com.practicetestautomation.tests.login.LoginTests -->
+    </test> <!-- Positive Login Test with Chrome Browser -->
+    <test started-at="2025-01-26T16:21:12 GMT-06:00" name="Positive Login Test  with FireFox Browser" finished-at="2025-01-26T16:21:17 GMT-06:00" duration-ms="4985">
+      <class name="com.practicetestautomation.tests.login.LoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@436813f3]" started-at="2025-01-26T16:21:12 GMT-06:00" name="setUp" finished-at="2025-01-26T16:21:15 GMT-06:00" duration-ms="3466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFunctionality()[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@436813f3]" started-at="2025-01-26T16:21:15 GMT-06:00" name="testLoginFunctionality" finished-at="2025-01-26T16:21:16 GMT-06:00" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunctionality -->
+        <test-method is-config="true" signature="trearDown()[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@436813f3]" started-at="2025-01-26T16:21:16 GMT-06:00" name="trearDown" finished-at="2025-01-26T16:21:17 GMT-06:00" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trearDown -->
+      </class> <!-- com.practicetestautomation.tests.login.LoginTests -->
+    </test> <!-- Positive Login Test  with FireFox Browser -->
+    <test started-at="2025-01-26T16:21:17 GMT-06:00" name="Incorrect Username Test" finished-at="2025-01-26T16:21:20 GMT-06:00" duration-ms="2846">
+      <class name="com.practicetestautomation.tests.login.LoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@3febb011]" started-at="2025-01-26T16:21:17 GMT-06:00" name="setUp" finished-at="2025-01-26T16:21:19 GMT-06:00" duration-ms="2336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@3febb011]" started-at="2025-01-26T16:21:19 GMT-06:00" name="negativeLoginTest" finished-at="2025-01-26T16:21:19 GMT-06:00" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incorrectUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your username is invalid!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+        <test-method is-config="true" signature="trearDown()[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@3febb011]" started-at="2025-01-26T16:21:19 GMT-06:00" name="trearDown" finished-at="2025-01-26T16:21:20 GMT-06:00" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trearDown -->
+      </class> <!-- com.practicetestautomation.tests.login.LoginTests -->
+    </test> <!-- Incorrect Username Test -->
+    <test started-at="2025-01-26T16:21:20 GMT-06:00" name="Incorrect password Test" finished-at="2025-01-26T16:21:23 GMT-06:00" duration-ms="3252">
+      <class name="com.practicetestautomation.tests.login.LoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@158d2680]" started-at="2025-01-26T16:21:20 GMT-06:00" name="setUp" finished-at="2025-01-26T16:21:22 GMT-06:00" duration-ms="2723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@158d2680]" started-at="2025-01-26T16:21:22 GMT-06:00" name="negativeLoginTest" finished-at="2025-01-26T16:21:23 GMT-06:00" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[incorrectpassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your password is invalid!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+        <test-method is-config="true" signature="trearDown()[pri:0, instance:com.practicetestautomation.tests.login.LoginTests@158d2680]" started-at="2025-01-26T16:21:23 GMT-06:00" name="trearDown" finished-at="2025-01-26T16:21:23 GMT-06:00" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trearDown -->
+      </class> <!-- com.practicetestautomation.tests.login.LoginTests -->
+    </test> <!-- Incorrect password Test -->
+  </suite> <!-- Full Regression Suite -->
+</testng-results>
